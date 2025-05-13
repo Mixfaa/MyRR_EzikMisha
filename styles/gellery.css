@@ -1,0 +1,18 @@
+/* Gallery styles */
+.gallery {
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ gap: 10px;
+ margin-top: 20px;
+}
+
+.gallery img {
+ border: 1px solid #ddd;
+ padding: 5px;
+ background-color: #fff;
+}
+
+.gallery img:hover {
+ border-color: #aaa;
+}
